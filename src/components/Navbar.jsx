@@ -97,7 +97,7 @@ useEffect(() => {
                         duration={700}
                         offset={-70}
                         onClick={() => setIsOpen(false)}
-                        className="block px-6 py-4 text-right hover:text-purple-600 transition"
+                        className="block px-6 py-4 text-right text-black hover:text-purple-600 transition"
                       >
                         {link.label}
                       </Link>
