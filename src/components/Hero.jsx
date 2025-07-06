@@ -19,9 +19,16 @@ export default function Hero() {
         </p>
 
         {/* Button spacing increased */}
-        <button className="mt-10 bg-purple-600 hover:bg-purple-700 text-white font-semibold text-sm px-6 py-3 rounded-md shadow-md transition">
-          View Projects
-        </button>
+        <Link
+  to="project"
+  smooth={true}
+  duration={700}
+  offset={-70}
+  className="inline-block mt-10 bg-purple-600 hover:bg-purple-700 text-white font-semibold text-sm px-6 py-3 rounded-md shadow-md transition cursor-pointer"
+>
+  View Projects
+</Link>
+
 
         {/* Scroll indicator spacing adjusted */}
         <Lottie animationData={scrollAnim} loop className="w-10 mx-auto mt-14" />
